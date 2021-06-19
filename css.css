@@ -1,0 +1,199 @@
+body {
+    background-image: url(img/background.png);
+    background-color: #a7a49d;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    margin: 0;
+}
+
+.aboutme {
+    color: white;
+    display: block;
+    margin: 3% 0 0 2%;
+}
+
+.aboutme h1 {
+    text-align: center;
+    margin: 3% 0 0 3%;
+    font-size: 3vw;
+}
+
+
+.tombol {
+    background-color: transparent;
+    size: 1vw;
+    margin: 7% 0 1.5% 10%;
+    padding: 0.75%;
+    align-items: center;
+    border-radius: 12px;
+    border: 2px solid white;
+    font-size: 1vw;
+}
+
+.tombol a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1vw;
+}
+
+.tombol:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1vw;
+    background-color: grey;
+}
+
+.aboutdata {
+    list-style-type: none;
+    font-size: 1.35vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5% 0 0 7%;
+    text-align: justify;
+    width: 40%;
+}
+
+.aboutdata li {
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+}
+
+.aboutdata li a {
+    text-decoration: none;
+}
+
+.aboutdata button a {
+    color: white;
+    text-decoration: none;
+}
+
+.aboutdata button {
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    padding: 2%;
+    color: white;
+    background-color: rgba(116, 108, 108, 0.288);
+    border: 0.2vw solid white;
+    font-size: 1.25vw;
+}
+
+
+.aboutdata li , .aboudata a , .aboutdata button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contactme {
+    color: white;
+    display: block;
+    margin: 3% 0 0 2%;
+}
+
+.contactme h1 {
+    text-align: center;
+    margin: 3% 0 0 3%;
+    font-size: 3vw;
+}
+
+.contactform {
+    color: white;
+    display: block;
+    margin: 3% 0 0 0;
+}
+
+.contactform ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.listform {
+    list-style-type: none;
+    font-size: 1.5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5% 0 0 7%;
+    text-align: justify;
+    width: 40%;
+}
+
+.listform li {
+    margin-left: 0.5%;
+    color: white;
+}
+
+.listform li a {
+    text-decoration: none;
+}
+
+.listform button a {
+    color: white;
+}
+
+.listform button {
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    padding: 2%;
+    color: white;
+    background-color: rgba(116, 108, 108, 0.288);
+    border: 0.2vw solid white;
+}
+
+.listform button a {
+    text-decoration: none;
+}
+
+.listform li , .listform a , .listform button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.listform input {
+    margin-bottom: 2.5%;
+    width: 200px;
+    text-decoration: none;
+    background-color: rgba(156, 156, 145, 0.603);
+    border: 2px solid white;
+}
+
+.buttonsubmit {
+    background-color: transparent;
+    size: 1vw;
+    margin: 2% 0 1.5% 10%;
+    padding: 0.75%;
+    align-items: center;
+    border-radius: 12px;
+    border: 2px solid white;
+    font-size: 1vw;
+}
+
+.buttonsubmit a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.25vw;
+}
+
+.buttonsubmit:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1vw;
+    background-color: grey;
+}
+
+.formpesan {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin-top: 1%;
+}
+
+.productlist {
+    text-decoration: none;
+    font-size: 2.5vw;
+    color: white;
+    text-align: center;
+}
+
+.productlist:hover {
+    text-decoration: none;
+    font-size: 2.5vw;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
